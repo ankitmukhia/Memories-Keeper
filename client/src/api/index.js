@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://memories-keeper.cyclic.app/" });
+const API = axios.create({ baseURL: "https://memories-keeper.onrender.com/" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {

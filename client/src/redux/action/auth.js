@@ -1,7 +1,7 @@
 import { AUTH } from "../../constants/actionTypes"; // this are all type we are exporting for redux reducer
 import * as api from "../../api/index";
 
-export const signin = (formData, history) => async (dispatch) => {
+export const signin = (formData, router) => async (dispatch) => {
   try {
     // login in the user...
     const { data } = await api.signIn(formData);
@@ -11,7 +11,7 @@ export const signin = (formData, history) => async (dispatch) => {
       data,
     });
 
-    history.push("/");
+    router.push("/");
   } catch (error) {
     console.log(error);
   }
