@@ -1,6 +1,6 @@
 <h1>Full Stack MERN Social Media App with Auth, Pagination</h1>
 
-## Play with it : https://memorieesss.netlify.app/posts
+## Play with it : https://memorieesss.netlify.app
 
 <p align="center">
   <img src="https://i.postimg.cc/fbnKKp1q/Screenshot-2023-06-07-190350.png" width="600">
